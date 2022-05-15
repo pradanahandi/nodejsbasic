@@ -18,5 +18,13 @@
 * >npm install mysql --save
 ## NPM Config
 * >npm init
+## Config Database
+1. Buka file index.js
+2. Tambahkan kebutuhan untuk mengkoneksikan database seperti hostname, user, password, dan nama database seperti berikut :
+  * >host : 'endpoint dari database'
+  * >user : 'username yang dibuat'
+  * >password : 'password yang dibuat'
+  * >database : 'nama database'
+
 ## Untuk menjalankan program
 * >node index // menjalankan program node js yang diambil dari file index.js
