@@ -28,3 +28,5 @@
 
 ## Untuk menjalankan program
 * >node index // menjalankan program node js yang diambil dari file index.js
+## Test Program
+* >buka browser dan masukan ip anda dan portnya seperti berikut: localhost:8000
