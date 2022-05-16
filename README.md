@@ -16,16 +16,16 @@
 * >npm install express-session --save
 * >npm install method-override --save
 * >npm install mysql --save
+* >npm install dotenv --save
 ## NPM Config
 * >npm init
-## Config Database
-1. Buka file index.js
+## Config Environment
+1. Buat file .env pada folder aplikasi
 2. Tambahkan kebutuhan untuk mengkoneksikan database seperti hostname, user, password, dan nama database seperti berikut :
-  * >host : 'endpoint dari database'
-  * >user : 'username yang dibuat'
-  * >password : 'password yang dibuat'
-  * >database : 'nama database'
-
+ * >DB_HOST = YOUR ENDPOINT
+ * >DB_USER = YOUR USERNAME
+ * >DB_PASSWORD = YOUR PASSWORD
+ * >DB_DATABASE = YOUR DATABASE
 ## Untuk menjalankan program
 * >node index // menjalankan program node js yang diambil dari file index.js
 ## Test Program
