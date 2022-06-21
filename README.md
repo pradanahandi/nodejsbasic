@@ -17,7 +17,7 @@
 * >npm install method-override --save
 * >npm install mysql --save
 * >npm install dotenv --save
-* >npm install pm2 -g
+* >npm install pm2 -g -i
 ## NPM Config
 * >npm init
 ## Config Environment
