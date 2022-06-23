@@ -33,14 +33,16 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 //set folder public as static folder for static file
 app.use('/assets',express.static(__dirname + '/public'));
-
+var ip = require("ip");
 //route for homepage
 app.get('/',(req, res) => {
   let sql = "SELECT * FROM product";
   let query = conn.query(sql, (err, results) => {
+
     if(err) throw err;
     res.render('product_view',{
-      results: results
+      results: results,
+      hostIp: ip.address()
     });
   });
 });
@@ -73,7 +75,14 @@ app.post('/delete',(req, res) => {
   });
 });
 
+app.get("/ip", function(req, res) {
+  console.log(req.socket.remoteAddress);
+  console.log(req.ip);
+  res.send("your IP is: " + req.ip);
+});
+
 //server listening
 app.listen(8000, () => {
   console.log('Server is running at port 8000');
+  console.log('Your IP is')
 });
