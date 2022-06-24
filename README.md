@@ -51,7 +51,6 @@
   * > (4, 'Product 4', 2000),
   * > (5, 'Product 5', 1500); 
 ## Untuk menjalankan program
-* >node index // menjalankan program node js yang diambil dari file index.js
-* >pm2 start index.js //menjalankan otomatis program js ketika server direstart
+* >npm run start
 ## Test Program
 * >buka browser dan masukan ip anda dan portnya seperti berikut: localhost:8000
