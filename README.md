@@ -5,7 +5,7 @@
 * >curl -sL https://rpm.nodesource.com/setup_14.x | sudo -E bash - 
 * >yum install nodejs git -y
 ### Menggunakan Ubuntu
-* >apt install -y gcc-c++ make
+* >apt install -y g++ make
 * >curl -sL https://rpm.nodesource.com/setup_14.x | sudo -E bash -
 * >apt install -y nodejs git
 ## Cek versi NodeJS dan NPM
