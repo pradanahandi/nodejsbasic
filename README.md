@@ -7,7 +7,7 @@
 ### Menggunakan Ubuntu
 * >apt install -y g++ make npm
 * >curl -sL https://rpm.nodesource.com/setup_14.x | sudo -E bash -
-* >apt install -y nodejs git
+* >apt install -y nodejs git npm
 ## Cek versi NodeJS dan NPM
 * >node -v
 * >npm -v
@@ -30,6 +30,7 @@
  * >DB_USER = YOUR USERNAME
  * >DB_PASSWORD = YOUR PASSWORD
  * >DB_DATABASE = YOUR DATABASE
+ * >NODE_ENV = production
 ## Config Database
 1. Buat cluster database menggunakan RDS dari Amazon Aurora MySQL atau MySQL
 2. Akses cluster database tersebut menggunakan tambahan software seperti HeidiSQL
