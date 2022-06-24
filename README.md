@@ -1,8 +1,13 @@
 # Langkah Deploy nodejs di Amazon Web Service
 ## Install Node JS
-* >yum install gcc-c++ make -y
+### Menggunakan Amazon Linux 2
+* >yum install -y gcc-c++ make
 * >curl -sL https://rpm.nodesource.com/setup_14.x | sudo -E bash - 
 * >yum install nodejs git -y
+### Menggunakan Ubuntu
+* >apt install -y gcc-c++ make
+* >curl -sL https://rpm.nodesource.com/setup_14.x | sudo -E bash -
+* >apt install -y nodejs git
 ## Cek versi NodeJS dan NPM
 * >node -v
 * >npm -v
