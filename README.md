@@ -22,6 +22,7 @@
 * >npm install method-override --save
 * >npm install mysql --save
 * >npm install dotenv --save
+* >npm install ip
 * >npm install pm2 -g -i
 ## Config Environment
 1. Buat file .env pada folder aplikasi
