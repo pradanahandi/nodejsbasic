@@ -1,6 +1,6 @@
 # Langkah Deploy nodejs di Amazon Web Service
 ## Install Dependency
-* >npm install
+* >npm install --prefix
 ## Config Environment
 1. Buat file .env pada folder aplikasi
 2. Tambahkan kebutuhan untuk mengkoneksikan database seperti hostname, user, password, dan nama database seperti berikut :
