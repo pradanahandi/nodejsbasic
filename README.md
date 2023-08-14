@@ -29,6 +29,6 @@
   * > (4, 'Product 4', 2000),
   * > (5, 'Product 5', 1500); 
 ## Untuk menjalankan program
-* >npm run start-apps
+* >npm run start-prod
 ## Test Program
 * >buka browser dan masukan ip anda dan portnya seperti berikut: localhost:8000
