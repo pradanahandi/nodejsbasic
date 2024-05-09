@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js",
-    "start": "node index.js",
-    "start-prod": "pm2 start index.js",
-    "stop-prod": "pm2 stop index"
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "start-prod": "pm2 start app.js",
+    "stop": "pm2 stop app.js"
   },
   "repository": {
     "type": "git",
